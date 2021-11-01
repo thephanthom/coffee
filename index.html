@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <title>Coffee Bor</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header
+      class="flex items-center justify-between mx-auto max-w-6xl py-2 p-4"
+    >
+      <div class="flex items-center space-x-2">
+        <img class="w-20" src="./media/logo.png" alt="logotip" />
+        <span class="text-xl font-semibold text-green-500">Coffee bor</span>
+      </div>
+      <div class="text-xl space-x-6 hidden md:block">
+        <a href="./menu.html" class="hover:text-green-500">Menu</a>
+        <a href="#" class="hover:text-green-500">Delivery</a>
+        <a href="#" class="hover:text-green-500">About</a>
+      </div>
+      <svg
+        class="w-6 h-6 block md:hidden esviji"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        ></path>
+      </svg>
+    </header>
+    <div class="space-y-36">
+      <section
+        class="
+          mx-auto
+          max-w-6xl
+          mt-5
+          grid
+          gap-10
+          lg:gap-20
+          md:gap-36
+          grid-cols-1
+          md:grid-cols-2
+          p-4
+        "
+      >
+        <div class="max-w-lg space-y-6 flex flex-col text-justify md:text-left">
+          <h1 class="text-4xl text-green-500 font-semibold">
+            Bizda koffelar olami
+          </h1>
+          <p class="text-xl text-justify md:text-left max-w-xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            molestias voluptate, quia provident, atque Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Iste, excepturi. Lorem ipsu
+            tempora nihil suscipit nam expedita possimus qui soluta?
+            Perferendis, quisquam maiores. Pariatur sit consequuntur eius
+            exercitationem! Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Magnam veritatis quae ut sapiente aspernatur totam debitis
+            excepturi ex! Blanditiis, ut earum dolores ipsam expedita laboriosam
+            rem provident veniam praesentium voluptatibus?
+          </p>
+
+          <button
+            class="
+              bg-green-500
+              font-semibold
+              px-5
+              py-3
+              tatib
+              transform
+              hover:bg-green-400 hover:scale-105
+              text-xl text-white
+              rounded-md
+            "
+          >
+            Tatib ko'ring
+          </button>
+        </div>
+        <form
+          action="ss"
+          class="
+            animate__animated animate__shakeX
+            forma
+            shadow-xl
+            border
+            p-6
+            md:mx-4
+            mx-0
+            flex flex-col
+            rounded-md
+            text-xl
+          "
+        >
+          <div class="flex items-center space-x-2">
+            <img src="./media/cup.svg" alt="coffee" class="w-8" />
+            <label for="sd">Coffe turlari:</label>
+          </div>
+          <select name="a" id="s" class="border p-2 mt-2">
+            <option value="">Espresso</option>
+            <option value="">Copichino</option>
+            <option value="">Coffelatte</option>
+            <option value="">Milkshake</option>
+          </select>
+          <div class="flex items-center mt-6 space-x-2">
+            <img src="./media/map.svg" alt="coffee" class="w-8" />
+            <label for="sd">Manzilimizni tanlang:</label>
+          </div>
+          <select name="a" id="s" class="border p-2 mt-2">
+            <option value="">Toshkent</option>
+            <option value="">toshkent dunyo st 39</option>
+            <option value="">Toshkent bj</option>
+            <option value="">Buxorao</option>
+          </select>
+          <div class="flex items-center mt-6 space-x-2">
+            <label for="sd">Kun va vaqtni tanlang:</label>
+          </div>
+          <input
+            type="datetime-local"
+            min="2021-10-25T08:00"
+            class="border p-2 mt-2"
+          />
+          <button
+            class="
+              p-2
+              mt-4
+              bg-green-500
+              rounded-md
+              text-white
+              hover:bg-green-200 hover:text-green-700
+              font-semibold
+            "
+          >
+            Buyurtma bering
+          </button>
+          <div class="mt-4 flex justify-end space-x-4">
+            <img src="./media/visa.png" class="h-3" alt="" />
+            <img src="./media/master.png" class="h-4" alt="" />
+            <img src="./media/applePay.png" class="h-4" alt="" />
+          </div>
+        </form>
+      </section>
+      <div class="relative">
+        <h2 class="text-3xl absolute top-0 text-white w-72 left-28 top-24">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+          quasi?
+        </h2>
+        <img
+          src="./media/beansBg.jpg"
+          alt=""
+          class="max-h-96 w-full h-96 object-cover"
+        />
+      </div>
+    </div>
+    <footer class="mt-20 bg-gray-700 pt-6">
+      <div
+        class="
+          max-w-4xl
+          mx-auto
+          flex-col flex
+          md:flex-row
+          justify-between
+          items-center
+        "
+      >
+        <img src="./media/logo.png" class="w-56" alt="" />
+
+        <div
+          class="flex flex-col space-x-0 items-center md:flex-row md:space-x-20"
+        >
+          <ul
+            class="
+              flex flex-col
+              shadow
+              bg-gray-600
+              px-4
+              w-full
+              max-w-sm
+              py-2
+              rounded
+              w-64
+              md:w-48
+              text-blue-200
+            "
+          >
+            <li>
+              <a href="#" class="text-yellow-300 text-xl font-semibold"
+                >Sayt Xaritasi:</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-green-500">Galareya</a>
+            </li>
+            <li></li>
+            <li>
+              <a href="#" class="hover:text-green-500">Fileallarimiz</a>
+            </li>
+            <li></li>
+            <li>
+              <a href="#" class="hover:text-green-500">Xarita</a>
+            </li>
+            <li></li>
+            <li>
+              <a href="#" class="hover:text-green-500">Manzillarimi</a>
+            </li>
+            <li></li>
+            <li>
+              <a href="#" class="hover:text-green-500">Coffee Turlari</a>
+            </li>
+            <li></li>
+            <li>
+              <a href="#" class="hover:text-green-500">Videolar</a>
+            </li>
+            <li></li>
+          </ul>
+
+          <ul
+            class="
+              flex flex-col
+              ml-12
+              bg-gray-600
+              px-4
+              py-2
+              rounded
+              text-blue-200
+              md:ml-0
+              shadow
+              w-64
+              md:w-48
+            "
+          >
+            <li>
+              <a href="#" class="text-yellow-300 text-xl font-semibold"
+                >Aloqa xizmati
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-green-500">Telefon</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-green-500">E-mail</a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-green-500">Adresimiz</a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-green-500">Fax</a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-green-500">Admin</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-green-500">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="
+          w-full
+          flex flex-col
+          items-center
+          bg-gray-800
+          justify-center
+          space-y-2
+          mt-4
+          py-4
+        "
+      >
+        <hr class="w-full max-w-4xl border-gray-500" />
+        <p class="font-semibold text-xl text-white pt-2">
+          Bizni
+          <span class="text-green-500">ijtimoiy tarmoqlarda</span> kuzatib
+          boring
+        </p>
+        <div class="flex space-x-4">
+          <img
+            class="w-8"
+            src="https://img.icons8.com/fluency/50/000000/instagram-new.png"
+          />
+          <img
+            class="w-8"
+            src="https://img.icons8.com/color/50/000000/telegram-app.png"
+          />
+          <img
+            class="w-8"
+            src="https://img.icons8.com/color/48/000000/whatsapp.png"
+          />
+          <img
+            class="w-8"
+            src="https://img.icons8.com/color/48/000000/twitter.png"
+          />
+          <img
+            class="w-8"
+            src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
